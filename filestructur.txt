@@ -1,0 +1,33 @@
+customer-churn/
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│
+├── notebooks/
+│   └── EDA.ipynb
+│
+├── src/
+│   ├── components/
+│   │   ├── data_ingestion.py
+│   │   ├── data_preprocessing.py
+│   │   ├── model_training.py
+│   │   ├── model_evaluation.py
+│   │
+│   ├── pipeline/
+│   │   ├── training_pipeline.py
+│   │   ├── prediction_pipeline.py
+│   │
+│   ├── utils/
+│   │   ├── logger.py
+│   │   ├── exception.py
+│
+├── logs/
+│
+├── models/
+│
+├── mlruns/   ← MLflow auto folder
+│
+├── app.py    ← FastAPI / API
+├── requirements.txt
+└── setup.py
